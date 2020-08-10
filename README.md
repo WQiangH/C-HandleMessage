@@ -1,2 +1,2 @@
-# C-HandleMessage
+# HandleMessage
 C# HandleMessage Program
