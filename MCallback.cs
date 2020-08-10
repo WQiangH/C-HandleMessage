@@ -1,0 +1,10 @@
+﻿public delegate void MCallBack();
+public delegate void MCallBack<T>(T arg);
+public delegate void MCallBack<T, A>(T arg1, A arg2);
+public delegate void MCallBack<T, A, B>(T arg1, A arg2, B arg3);
+public delegate void MCallBack<T, A, B, C>(T arg1, A arg2, B arg3, C arg4);
+public delegate void MCallBack<T, A, B, C, D>(T arg1, A arg2, B arg3, C arg4, D arg5);
+public delegate void MCallBack<T, A, B, C, D, E>(T arg1, A arg2, B arg3, C arg4, D arg5, E arg6);
+public delegate void MCallBack<T, A, B, C, D, E, F>(T arg1, A arg2, B arg3, C arg4, D arg5, E arg6, F arg7);
+public delegate void MCallBack<T, A, B, C, D, E, F, G>(T arg1, A arg2, B arg3, C arg4, D arg5, E arg6, F arg7, G arg8);
+public delegate void MCallBack<T, A, B, C, D, E, F, G, H>(T arg1, A arg2, B arg3, C arg4, D arg5, E arg6, F arg7, G arg8, H arg9);
